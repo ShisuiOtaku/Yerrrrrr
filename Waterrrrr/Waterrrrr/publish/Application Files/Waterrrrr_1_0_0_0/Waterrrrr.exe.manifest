@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Waterrrrr.exe" version="1.0.0.0" publicKeyToken="c2cb8f0da9df0f0e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Waterrrrr" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Waterrrrr.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Waterrrrr.exe" size="2420648">
+      <assemblyIdentity name="Waterrrrr" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QprM6Gi/pZneRHDCDlwe4iEq6wdG7ZTivbR6443FusU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Waterrrrr.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BAC\ns21-003" issuerKeyHash="c85834c056c8d624ea266fe8723569a8db287982" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MNljIN03u0PYk4JPmbJF0jwmlBbuOmdfxnsjvM6E/L8=</DigestValue></Reference></SignedInfo><SignatureValue>D208BIQmyJVxh40RfBwSBwTCoskqtwMiCCqMB0NOZrGJxZKjqgeh78TmSZ0jDuLUEzgePYa7WC/3CKhM4PUWP6WmmRl6FY2ffxeQGfY+TBDi091DcqK8hHk5XDrMxH8HqGND/YLe45MGfHio8GDLZgqsf8sxBY+YTF94QjwDWqY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tydzBmWdT0sYddGcU/9QLP065Eo6u7ayoqVygEPLRvtQLesQ3eyjjBsYt3h5THnkIb4z+dlypF5iV+wTckVD/Xszm97zvDtExGcsIxfBlmgZ1hvbOKqkCjMXuv+oKhCqEUaaee3L1dEQ8kgqft61BPYSPW2a0btAjp3aFHAbMBE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bffc84cebc237bc65f673aee1694263cd245b2994f8293d843bb37dd2063d930" Description="" Url=""><as:assemblyIdentity name="Waterrrrr.exe" version="1.0.0.0" publicKeyToken="c2cb8f0da9df0f0e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BAC\ns21-003</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1Osozf9zLVVCNWBLb2JF4UwZ60NPFGoJ9omHKm4jktg=</DigestValue></Reference></SignedInfo><SignatureValue>WRc6Mbh0M0QHZa9HCYVWDlyUduAtogNjL2ZrZQDg+Ca8k/UoMnP0CTtMmvCq9aayufRGSkChxGBvZnCNK2a0CKvlxL0Jv/L4ns2qFXTaUWhtBZ4aogIMlhpyJLLP3iud4CdvhLXthb3QkT6jTlTVEO3KwauTRM5F4HNDr2155mg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tydzBmWdT0sYddGcU/9QLP065Eo6u7ayoqVygEPLRvtQLesQ3eyjjBsYt3h5THnkIb4z+dlypF5iV+wTckVD/Xszm97zvDtExGcsIxfBlmgZ1hvbOKqkCjMXuv+oKhCqEUaaee3L1dEQ8kgqft61BPYSPW2a0btAjp3aFHAbMBE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQG0m5nsTlg4ZLSIn/rQf8yTANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQgBBAEMAXABuAHMAMgAxAC0AMAAwADMwHhcNMjIxMTI3MTY1NzU0WhcNMjMxMTI3MjI1NzU0WjAjMSEwHwYDVQQDHhgAQgBBAEMAXABuAHMAMgAxAC0AMAAwADMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALcncwZlnU9LGHXRnFP/UCz9OuRKOru2sqKlcoBDy0b7UC3rEN3so4wbGLd4eUx55CG+M/nZcqReYlfsE3JFQ/17M5ve87w7RMRnLCMXwZZoGdYb2ziqpAozF7r/qCoQqhFGmnnty9XREPJIKn7etQT2Ej1tmtG7QI6d2hRwGzARAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAs2fdQmbaOpHU2xCFZvbWa6Z7UCbEOXLTv+8Q23bQp76VHvaP3Zhd/y82Uc7edNFlDVUWtbwvNoeqL79T4Mq2fG8GRMgUystAU/i4ThY4sRETmgXMZmvfivM5HVETkri35jv4AUi8zuWUyBx9s2iOi4SJuldDJE3rIZvxt8vs0Xc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
